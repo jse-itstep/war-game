@@ -8,10 +8,7 @@ const energySpan = document.querySelector("#energy");
 
 function startBattle(){
     let divBattle = document.querySelector("#battle");
-    divBattle.innerHTML = 1;
-    for(let i = 0; i < innerHTML.lenght; i++){
-        divBattle = ++1;
-    }
+    divBattle.innerHTML = `<input type="text">`
 }
 
 
@@ -25,3 +22,15 @@ function heal(){
         alert("Not enough coins!");
     }
 }
+
+function buyEnergy(){
+    if(energy <= 1){
+        coins -= 50;
+        energySpan.innerHTML = energy;
+        coinSpan.innerHTML = coins;
+    }else{
+        alert("life");
+    }
+}
+
+
