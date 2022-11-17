@@ -12,6 +12,7 @@ function heal() {
     }
     else {
         coins.innerHTML = 0;
+        alert("asd")
     }
     hp.innerHTML = new_hp;
 }   

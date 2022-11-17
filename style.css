@@ -1,8 +1,6 @@
 .grid_div{
-    min-height: 200px;
-    width: 500px;
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 150px);
     gap: 15px;
     justify-content: center;
     text-align: center;
@@ -11,4 +9,5 @@
 
 button{
     background-color: cornflowerblue;
+    padding: 10px;
 }
