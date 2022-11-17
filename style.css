@@ -1,0 +1,14 @@
+.grid_div{
+    min-height: 200px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+button{
+    background-color: cornflowerblue;
+}
