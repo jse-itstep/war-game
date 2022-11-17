@@ -14,4 +14,4 @@ function heal() {
         coins.innerHTML = 0;
     }
     hp.innerHTML = new_hp;
-}  
+}   
