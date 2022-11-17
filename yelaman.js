@@ -26,6 +26,7 @@ function heal(){
 function buyEnergy(){
     if(energy >= 5){
         coins -= 50;
+        energy += 1;
         energySpan.innerHTML = energy;
         coinSpan.innerHTML = coins;
     }
