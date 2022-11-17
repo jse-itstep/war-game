@@ -24,12 +24,10 @@ function heal(){
 }
 
 function buyEnergy(){
-    if(energy <= 1){
+    if(energy >= 50){
         coins -= 50;
         energySpan.innerHTML = energy;
         coinSpan.innerHTML = coins;
-    }else{
-        alert("life");
     }
 }
 
