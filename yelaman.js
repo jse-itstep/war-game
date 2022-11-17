@@ -8,9 +8,11 @@ const energySpan = document.querySelector("#energy");
 
 function startBattle(){
     let divBattle = document.querySelector("#battle");
-    divBattle.innerHTML = `<input type="text">`
+    divBattle.innerHTML = `
+    <input type="text">
+    <button id="start">Start</button>
+    `;
 }
-
 
 function heal(){
     if(coins >= 50){
