@@ -1,0 +1,58 @@
+body{
+  /* display: flex;
+  justify-content:center;
+  margin: 0, auto; */
+  
+}
+.datas{
+display: flex;
+justify-content:center;
+margin: 0, auto; 
+}
+
+.btn_section{
+    display: flex;
+justify-content:center;
+margin: 0, auto; 
+}
+.text{
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    padding: 10px;
+    
+}
+.btn{
+    font-family: 'Press Start 2P';
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+} 
+.btn1:hover{
+    background: rgb(250, 37, 37);
+    text-decoration: none;
+}
+.btn2:hover{
+    background: rgb(15, 255, 15);
+    text-decoration: none;
+}
+
+.btn3:hover{
+    background: rgb(255, 255, 107);
+    text-decoration: none;
+}
+
+.icons{
+padding-top: 7px;
+}
+

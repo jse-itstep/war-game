@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <title>Game</title>
+
+</head>
+<body>
+    <div class="datas">
+ <a href="#" class="icons"> <img src="./photo/icons8-здоровье-сердца-48.png" alt="health"></a>   
+<p class="text">  HP: <span id="hp">100</span></p>
+<a href="#"  class="icons"> <img src="./photo/icons8-высокое-напряжение-48.png" alt="energy"></a> 
+<p  class="text">Energy: <span id="energy">5</span></p>
+<a href="#"  class="icons"> <img src="./photo/icons8-дорого-2-48.png" alt="coins"></a> 
+<p  class="text"> Coins: <span id="coins">500</span></p>
+</div>
+<div class="btn_section">
+<button onclick="startBattle()" class="btn btn1">Battle</button>
+<button onclick="heal()" class="btn btn2">Heal</button>
+<button onclick="buyEnergy()" class="btn btn3">Buy Energy</button> 
+<div id="battle"></div>
+<div id="heal"></div>
+<div id="buyEnergy"></div>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
