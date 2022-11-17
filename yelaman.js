@@ -8,7 +8,10 @@ const energySpan = document.querySelector("#energy");
 
 function startBattle(){
     let divBattle = document.querySelector("#battle");
-    divBattle.innerHTML += `<input type="text">`
+    divBattle.innerHTML = 1;
+    for(let i = 0; i < innerHTML.lenght; i++){
+        divBattle = ++1;
+    }
 }
 
 
